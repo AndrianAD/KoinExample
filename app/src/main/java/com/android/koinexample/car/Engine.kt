@@ -1,4 +1,4 @@
-package com.android.koinexample
+package com.android.koinexample.car
 
 import com.android.koinexample.engine.Cylinder
 import com.android.koinexample.engine.Piston

@@ -1,7 +1,6 @@
 package com.android.koinexample.wheel
 
-class Disk {
-
+class Disk(var steel : Steel) {
     init {
         makeDisk()
     }

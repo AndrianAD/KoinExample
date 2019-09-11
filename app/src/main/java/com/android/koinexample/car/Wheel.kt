@@ -1,4 +1,4 @@
-package com.android.koinexample
+package com.android.koinexample.car
 
 import com.android.koinexample.wheel.Disk
 import com.android.koinexample.wheel.Tire

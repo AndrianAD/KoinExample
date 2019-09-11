@@ -1,6 +1,9 @@
 package com.android.koinexample
 
-class Car( var engine: Engine, var wheel: Wheel){
+import com.android.koinexample.car.Engine
+import com.android.koinexample.car.Wheel
+
+class Car(var engine: Engine, var wheel: Wheel){
     init {
         makeCar()
     }
