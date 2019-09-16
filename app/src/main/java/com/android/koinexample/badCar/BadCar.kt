@@ -1,6 +1,8 @@
 package com.android.koinexample.badCar
 
-class BadCar {
+import com.android.koinexample.Car
+
+class BadCar : Car {
 
     var engine: BadEngine = BadEngine()
     var wheel: BadWheel = BadWheel()
@@ -9,7 +11,7 @@ class BadCar {
         makeCar()
     }
 
-    fun makeCar() = println("Make bad car")
-    fun makeSomeNoise() = println("Beeepp!!!! - BEEEPP!!")
+    override fun makeCar() = println("Make bad car")
+    override fun makeSomeNoise() = println("Beeepp!!!! - BEEEPP!!")
 
 }

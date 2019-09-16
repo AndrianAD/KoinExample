@@ -36,8 +36,12 @@ dependencies {
 
     // Koin AndroidX Scope features
     implementation "org.koin:koin-androidx-scope:2.0.1"
-// Koin AndroidX ViewModel features
+    // Koin AndroidX ViewModel features
     implementation "org.koin:koin-androidx-viewmodel:2.0.1"
-// Koin AndroidX Experimental features
+    // Koin AndroidX Experimental features
     implementation "org.koin:koin-androidx-ext:2.0.1"
+
+    def lifecycle_version = "2.1.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+
 }

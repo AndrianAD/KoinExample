@@ -1,11 +1,11 @@
 package com.android.koinexample
 
-import com.android.koinexample.car.Engine
-import com.android.koinexample.car.Wheel
+import com.android.koinexample.goodCar.Engine
+import com.android.koinexample.goodCar.GoodCar
+import com.android.koinexample.goodCar.Wheel
 import com.android.koinexample.engine.Cylinder
 import com.android.koinexample.engine.Piston
 import com.android.koinexample.wheel.Disk
-import com.android.koinexample.wheel.Steel
 import com.android.koinexample.wheel.Tire
 import org.koin.core.KoinComponent
 import org.koin.core.get
@@ -24,7 +24,7 @@ class KoinApp : KoinComponent {
     val engine: Engine by inject()
 
 
-    val car: Car by inject()
+    val car: GoodCar by inject()
 
 
 }
